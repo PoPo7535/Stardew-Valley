@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2D Framework">
+      <UniqueIdentifier>{8b0c4e35-7e2f-4a74-83bb-e0db2d424e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Manager">
+      <UniqueIdentifier>{73a7dbf2-cbe7-40e3-86b0-8e06a49626a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{76040367-e9ec-435c-8de8-182b0e7703ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Timer">
+      <UniqueIdentifier>{d7001b95-e035-4255-abd7-0416253c7f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{706cb441-4046-4339-a016-95a5dfe9d76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object">
+      <UniqueIdentifier>{7da5a1cb-504e-4775-8626-e6d84327d0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object\Player">
+      <UniqueIdentifier>{d1243277-f08d-40f7-a09a-ca634d8041e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Manager">
+      <UniqueIdentifier>{01f0974d-3503-483f-9b14-f9bbdbf483cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object\Item">
+      <UniqueIdentifier>{7463a603-97db-47ec-a730-5323e3f1069b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object\MineObject">
+      <UniqueIdentifier>{2de91347-c1f8-4bf5-a6c4-2337f07fc002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\UI">
+      <UniqueIdentifier>{1f435ee2-ae0a-40e5-9ade-16e3b03afc9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object\Shop">
+      <UniqueIdentifier>{d082361f-c96b-43ae-9f2e-56c1c239b026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2D Framework\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TilemapToolScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MineScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>MainGame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>MainGame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="OreObject.cpp">
+      <Filter>MainGame\Object\MineObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectRenderManager.cpp">
+      <Filter>MainGame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>MainGame\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryManager.cpp">
+      <Filter>MainGame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatePick.cpp">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateMove.cpp">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventoryUI.cpp">
+      <Filter>MainGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerItemHold.cpp">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>MainGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TopFloorScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopManager.cpp">
+      <Filter>MainGame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop_Blacksmith.cpp">
+      <Filter>MainGame\Object\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemsToSell.cpp">
+      <Filter>MainGame\Object\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateIdel.cpp">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2D Framework\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TilemapToolScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapInfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MineScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CamerManager.h">
+      <Filter>MainGame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>MainGame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataManager.h">
+      <Filter>MainGame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>MainGame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>MainGame\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="OreObject.h">
+      <Filter>MainGame\Object\MineObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectRenderManager.h">
+      <Filter>MainGame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Interaction.h">
+      <Filter>MainGame\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>MainGame\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>MainGame\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCode.h">
+      <Filter>MainGame\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryManager.h">
+      <Filter>MainGame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatePick.h">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateMove.h">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInventoryUI.h">
+      <Filter>MainGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerItemHold.h">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>MainGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TopFloorScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopManager.h">
+      <Filter>MainGame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop_Blacksmith.h">
+      <Filter>MainGame\Object\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemsToSell.h">
+      <Filter>MainGame\Object\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateIdel.h">
+      <Filter>MainGame\Object\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
